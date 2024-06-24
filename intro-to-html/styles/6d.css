@@ -1,0 +1,18 @@
+body {
+  font-family: Montserrat;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.model-3 {
+  font-size: 50px;
+  font-weight:600;
+  margin-bottom: 10px;
+}
+.order-online {
+  font-size: 30px;
+}
+.order-online-underlined {
+  text-decoration: underline;
+}

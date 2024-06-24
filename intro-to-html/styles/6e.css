@@ -1,0 +1,69 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.macbook {
+  font-family: Arial;
+  text-align: center;
+}
+.new {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+.macbook-pro {
+  font-size: 20px;
+  font-weight: bold;
+}
+.supercharged {
+  font-size: 30px;
+  font-weight: bold;
+}
+.price-from {
+  font-size: 18px;
+}
+.buy-button {
+  background-color: rgb(105, 105, 222);
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.five-f-top {
+  font-size: 30px;
+}
+.usd {
+  font-size: 20px;
+  color: gray;
+}
+.five-f-middle {
+  font-size: 20px;
+  color: green;
+}
+.five-f-bottom {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.five-f-bottom-red {
+  color: red;
+}
+.five-g {
+  font-size: 20px;
+}
+.five-g-top {
+  font-weight: bold;
+}
+.five-g-top-address {
+  color: gray;
+  font-weight: normal;
+}
+.five-g-bottom-address {
+  color: blueviolet;
+}

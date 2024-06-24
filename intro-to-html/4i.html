@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>4i</title>
+    <style>
+      .Stretch-button {
+        color: white;
+        background-color: green;
+        border: none;
+        font-size: 32px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 22px;
+        padding-right: 22px;
+        cursor: pointer;
+        transition: 
+          padding-top 1.5s, 
+          padding-buttom 1.5s, 
+          padding-left 1.5s, 
+          padding-right 1.5s;
+      }
+      .Stretch-button:hover {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 70px;
+        padding-right: 70px;
+      }
+      .three-d-click-button {
+        color: white;
+        background-color: green;
+        border: none;
+        font-size: 32px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 22px;
+        padding-right: 22px;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+      .three-d-click-button:active {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        box-shadow: none;
+      }
+      .margin-and-padding {
+        color: white;
+        background-color: green;
+        border: none;
+        font-size: 32px;
+        cursor: pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-left: 15px;
+        margin-right: 15px;
+        transition: 0.5s;
+      }
+      .margin-and-padding:hover {
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <button class="Stretch-button">Stretch</button>
+    </p>
+    <p>
+      <button class="three-d-click-button">Shadow</button>
+    </p>
+    <p>
+      <button class="margin-and-padding">One</button>
+      <button class="margin-and-padding">Two</button>
+      <button class="margin-and-padding">Three</button>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,175 @@
+.nine-a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 30px;
+}
+.nine-b {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin-bottom: 30px;
+  border-radius: 50px;
+}
+.nine-c {
+  width: 400px;
+  height: 100px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.nine-c-button {
+  margin-left: 5px;
+}
+.nine-d {
+  border-style: solid;
+  border: none;
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 520px;
+  margin-bottom: 30px;
+}
+.nine-d-top {
+  font-size: 30px;
+  font-weight:900;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.nine-d-bottom {
+  font-size: 20px;
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nine-e {
+  border-color: rgb(201, 201, 201);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #bdbdbd;
+  width: 450px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+.image-circle-small {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.twitter-input {
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}
+.twitter-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.nine-f-div {
+  border-color: rgb(201, 201, 201);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px #bdbdbd;
+  width: 200px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.nine-f-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.nine-f-div-internal {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.name {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+.mutual-friends {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  color: gray;
+  font-weight: bold;
+  font-size: 15px;
+}
+.add-friend-button {
+  background-color: rgb(150, 87, 250);
+  border: none;
+  border-radius: 8px;
+  margin-top: 0px;
+  font-size: 18px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.google-search-div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.google-logo {
+  display: block;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.search-bar {
+  display: block;
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  border: none;
+  position: relative;
+  box-shadow: 0px 5px 20px 1px #bdbdbd;
+  margin-bottom: 30px;
+}
+.google-buttons-container {
+  display: flex;
+  justify-content: center;
+}
+.google-buttons {
+  border: none;
+  background-color: rgb(220, 220, 220);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+  margin: 0 5px;
+}

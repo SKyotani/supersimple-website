@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13a</title>
+    <style>
+      .div-13a {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        height: 100px;
+        align-items: center;
+        background-color: gray;
+        margin-bottom: 30px;
+      }
+      .div-13a-left {
+        width: 100px;
+        background-color: lightpink;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+      }
+      .div-13a-right {
+        background-color: lightblue;
+        width: 200px;
+        height: 100px;
+      }
+      .div-13a-item {
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+
+      .div-13b {
+        display: flex;
+        width: 300px;
+        margin-bottom: 30px;
+      }
+      .div-13b-left {
+        width: 100px;
+        background-color: lightpink;
+      }
+      .div-13b-right{
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+      }
+      .div-13b-right-rows {
+        height: 25px;
+      }
+      .div-13b-right-columns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .div-13b-right-column-items {
+        background-color: black;
+        color: white;
+      }
+
+      .div-13c {
+        width: 500px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: gray;
+        box-shadow: 0px 0px 5px 2px #bdbdbd;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+      }
+      
+      .div-13c-top {
+        /* background-color: lightblue; */
+        height: 30px;
+      }
+      .div-13c-bottom {
+        /* background-color: lightpink; */
+        display: flex;
+      }
+      .div-13c-picture {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 30px;
+        margin-top: 20px;
+        /* margin-left: 10px; */
+        margin-right: 10px;
+      }
+      .div-13c-rows {
+        /* background-color: lightyellow; */
+        display: flex;
+        flex-direction: column;
+        width: 430px;
+      }
+      .div-13c-row1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+      }
+      .div-13c-title {
+        color: black;
+        height: 30px;
+        font-weight: bold;
+      }
+      .div-13c-message {
+        height: 40px;
+      }
+
+      .div-13f {
+        display: flex;
+        flex-direction: row;
+        width: 480px;
+        padding: 10px;
+        margin-bottom: 30px;
+      }
+      .div-13f-left {
+      }
+      .div-13f-right {
+      }
+      .div-13f-right-bottom {
+        height: 200px;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 20px;
+      }
+      .div-13f-image {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .div-13f-top-row {
+        display: flex;
+      }
+      .div-13f-name {
+        font-weight: bold;
+        margin-right: 10px;
+        margin-bottom: 0px;
+      }
+      .div-13f-address {
+        color: gray;
+        margin-bottom: 0px;
+      }
+      .div-13f-message {
+        margin-top: 0px;
+      }
+      .youtube-container {
+        height: 150px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+      }
+      .youtube-left {
+        background-color: lightgray;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 104px;
+        width: 100px;
+      }
+      .youtube-right {
+        background-color: white;
+        height: 100px;
+        flex: 1;
+        border-color: lightgray;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .youtube-dot-com {
+        color: gray;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div-13a">
+      <div class="div-13a-left">
+        <div class="div-13a-item">item1</div>
+      </div>
+      <div class="div-13a-right"></div>
+    </div>
+
+    <div class="div-13b">
+      <div class="div-13b-left"></div>
+      <div class="div-13b-right">
+        <div class="div-13b-right-rows">row1</div>
+        <div class="div-13b-right-rows div-13b-right-columns">
+          <div class="div-13b-right-column-items">row2</div>
+          <div class="div-13b-right-column-items">row2</div>
+        </div>
+        <div class="div-13b-right-rows"></div>
+      </div>
+    </div>
+
+    <div class="div-13c">
+      <div class="div-13c-top">ALL INBOXES</div>
+      <div class="div-13c-bottom">
+        <img class="div-13c-picture" src="images/PXL_20221025_225409398.jpg">
+        <div class="div-13c-rows">
+          <div class="div-13c-row1">
+            <p class="div-13c-title">Chewy Promotions</p>
+            <div>4:58 PM</div>
+          </div>
+            <div class="div-13c-title">Biggest sales of the year!</div>            
+            <div class="div-13c-message">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="div-13c">
+      <div class="div-13c-top">ALL INBOXES</div>
+      <div class="div-13c-bottom">
+        <img class="div-13c-picture" src="images/PXL_20221025_225409398.jpg">
+        <div class="div-13c-rows">
+          <div class="div-13c-row1">
+            <p class="div-13c-title">Chewy Promotions</p>
+            <div>4:58 PM</div>
+          </div>
+            <div class="div-13c-title">Biggest sales of the year!</div>            
+            <div class="div-13c-message">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+
+      <div class="div-13c-bottom">
+        <img class="div-13c-picture" src="images/PXL_20230720_202049551.jpg">
+        <div class="div-13c-rows">
+          <div class="div-13c-row1">
+            <p class="div-13c-title">Best Buy</p>
+            <div>12:32 PM</div>
+          </div>
+            <div class="div-13c-title">Your Best Buy eReceipt</div>            
+            <div class="div-13c-message">Thank you for shopping atBest Buy, here is...</div>
+        </div>
+      </div>
+
+      <div class="div-13c-bottom">
+        <img class="div-13c-picture" src="images/PXL_20240413_104623978.jpg">
+        <div class="div-13c-rows">
+          <div class="div-13c-row1">
+            <p class="div-13c-title">Netflix</p>
+            <div>9:00 AM</div>
+          </div>
+            <div class="div-13c-title">Here's what's coming soon to Netflix</div>            
+            <div class="div-13c-message">Brand new movies and shows, old favorites...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="div-13f">
+      <div class="div-13f-left">
+        <img class="div-13f-image" src="images/PXL_20230720_202049551.jpg">
+      </div>
+      <div class="div-13f-right">
+        <div class="div-13f-righ-top">
+          <div class="div-13f-top-row">
+            <div class="div-13f-name">supersimple.dev</div>
+            <div class="div-13f-address">@superSimpleDev</div>
+          </div>
+          <p class="div-13f-message">What is backend web development? A complete overview. New video is up!</p>
+        </div>
+        <div class="div-13f-right-bottom">
+          <div class="youtube-container">
+            <div class="youtube-left"></div>
+            <div class="youtube-right">
+              <div class="youtube-dot-com">Youtube.com</div>
+              <div>Backend web development - a complete overview (2021)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

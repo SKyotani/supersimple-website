@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12a</title>
+    <style>
+      .div-12a {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+      }
+      .div-12a-left {
+        width: 200px;
+        background-color: lightblue;
+      }
+      .div-12a-right {
+        width: 75px;
+        background-color: lightpink;
+      }
+
+      .div-12b {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+      }
+      .div-12b-left {
+        background-color: lightblue;
+        width: 50px;
+      }
+      .div-12b-middle {
+        background-color: lightpink;
+        flex: 1;
+      }
+      .div-12b-right {
+        background-color: lightblue;
+        width: 75px;
+      }
+
+      .div-12c {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+      }
+      .div-12c-items {
+        background-color: lightpink;
+      }
+
+      .div-12d {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        border-color: gray;
+        border-style: solid;
+        border-width: 1px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .div-12d-items {
+        background-color: lightpink;
+      }
+
+      .div-12e {
+        display: flex;
+        flex-direction: column;
+        border-color: gray;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 1px;
+        padding: 10px;
+        width: 350px;
+        margin-bottom: 30px;
+      }
+      .div-12e-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .div-12e-right {
+        color: white;
+        background-color: rgb(99, 60, 255);
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .div-12g {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 450px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        margin-bottom: 30px;
+      }
+      .div-12g-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        align-items: center;
+      }
+      .div-12g-icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        margin-right: 20px;
+        object-fit: cover;
+      }
+      .div-12g-info {
+        width: 200px;
+      }
+      .div-12g-buttons {
+        background-color: rgb(118, 118, 253);
+        color: white;
+        padding: 12px;
+        border-radius: 10px;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .div-12g-name {
+        font-weight: bold;
+        font-size: 16px;
+      }
+      .div-12g-title {
+        color: gray;
+        font-size: 16px;
+      }
+      .div-12g-popular {
+        color: gray;
+        font-size: 14px;
+      }
+      .div-12g-spacer {
+        flex: 1;
+      }
+
+      .div-12f {
+        background-color: rgb(162, 0, 211);
+        display: flex;
+        flex-direction: row;
+        border: none;
+        padding: 10px;
+        margin-bottom: 30px;
+        align-items: center;
+      }
+      .div-12f-home {
+        color: white;
+        font-weight: bold;
+        margin: 10px;
+      }
+      .div-12f-search {
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 16px;
+        flex: 5;
+      }
+      .div-12f-spacer {
+        flex: 1;
+      }
+      .div-12f-button {
+        border-width: 2px;
+        border-color: white;
+        background-color: rgb(162, 0, 211);
+        border-radius: 4px;
+        border-style: solid;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div-12a">
+      <div class="div-12a-left">200px</div>
+      <div class="div-12a-right">75px</div>
+    </div>
+
+    <div class="div-12b">
+      <div class="div-12b-left">item1</div>
+      <div class="div-12b-middle">item2</div>
+      <div class="div-12b-right">item3</div>
+    </div>
+
+    <div class="div-12c">
+      <div class="div-12c-items">item1</div>
+      <div class="div-12c-items">item2</div>
+      <div class="div-12c-items">item3</div>
+      <div class="div-12c-items">item4</div>
+    </div>
+
+    <div class="div-12d">
+      <div class="div-12d-items">item1</div>
+      <div class="div-12d-items">item2</div>
+    </div>
+
+    <div class="div-12e">
+      <div class="div-12e-left">Home
+        <div class="div-12e-right">14</div>
+      </div>
+      <div class="div-12e-left">Notifications
+        <div class="div-12e-right">3</div>
+      </div>
+      <div class="div-12e-left">Messages
+        <div class="div-12e-right">5</div>
+      </div>
+    </div>
+
+    <div class="div-12g">
+      <div class="div-12g-container">
+        <div>
+          <img class="div-12g-icon" src="images/PXL_20221025_225409398.jpg">
+        </div>
+        <div class="div-12g-info">
+          <div class="div-12g-name">Oliver</div>
+          <div class="div-12g-title">the cat</div>
+          <div class="div-12g-popular">Popular</div>
+        </div>
+        <div class="div-12g-spacer"></div>
+        <button class="div-12g-buttons">Follow</button>
+      </div>
+      <div class="div-12g-container">
+        <div>
+          <img class="div-12g-icon" src="images/PXL_20230720_202049551.jpg">
+        </div>
+        <div class="div-12g-info">
+          <div class="div-12g-name">Mimi</div>
+          <div class="div-12g-title">Sleepy Cat</div>
+          <div class="div-12g-popular">Popular</div>
+        </div>
+        <div class="div-12g-spacer"></div>
+        <button class="div-12g-buttons">Follow</button>
+      </div>
+      <div class="div-12g-container">
+        <div>
+          <img class="div-12g-icon" src="images/PXL_20240413_104623978.jpg">
+        </div>
+        <div class="div-12g-info">
+          <div class="div-12g-name">Rex</div>
+          <div class="div-12g-title">Happy Bulldog</div>
+          <div class="div-12g-popular">Popular</div>
+        </div>
+        <div class="div-12g-spacer"></div>
+        <button class="div-12g-buttons">Follow</button>
+      </div>
+    </div>
+
+    <div class="div-12f">
+      <div class="div-12f-home">Home</div>
+      <div class="div-12f-spacer"></div>
+      <input class="div-12f-search" placeholder="Search">
+      <div class="div-12f-spacer"></div>
+      <button class="div-12f-button">Download</button>
+    </div>
+  </body>
+</html>
